@@ -1,5 +1,6 @@
 # AES_Cipher_byPython
-AES暗号化をPythonで実装する。
+AES暗号化をPythonで実装する。  
+pyinstallerの--keyオプションを使用してツール自体を暗号化しようとしたけど、「key オプションはサポートしてない」とか書いてあったのを見つけたのでこの方法はあきらめる。
 
 - [AES_Cipher_byPython](#aes_cipher_bypython)
   - [コマンド](#コマンド)
@@ -45,3 +46,5 @@ Docker化はあきらめる。
 ## 参考
 
 - [Qiita:pythonでAES暗号化/複合化](https://qiita.com/penta2019/items/a500630608960752a914)
+- [Github:pyinstaller:Loader FrozenImporter cannot handle module os #4170](https://github.com/pyinstaller/pyinstaller/issues/4170)
+  - 「--key is is not supported.」
