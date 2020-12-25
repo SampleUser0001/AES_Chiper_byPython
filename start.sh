@@ -2,8 +2,8 @@
 
 # exec python encrypter.py
 # exec python test.py
-python test.py
+python sample.py
 
 # pyinstaller test.py --key hogepiyofuga
 
-pyinstaller test.py --clean --onefile 
+pyinstaller sample.py --clean --onefile 
