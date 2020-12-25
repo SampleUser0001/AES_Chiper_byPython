@@ -5,7 +5,10 @@ USER root
 
 RUN pip install --upgrade pip
 RUN pip install pycryptodome
+
 RUN pip install pyinstaller
+RUN pip install PyCrypto
+RUN pip install tinyaes
 
 WORKDIR /app
 COPY app /app
