@@ -1,0 +1,11 @@
+version: '3'
+services:
+  python3:
+    build: .
+    container_name: 'chiper_python'
+    volumes:
+      - ./start.sh:/start.sh
+      - ./app:/app
+  bash:
+    entrypoint: /start.sh
+    command: [ "origin hogehoge"  ]
