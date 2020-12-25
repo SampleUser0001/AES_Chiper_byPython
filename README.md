@@ -1,7 +1,7 @@
-# AES_Chiper_byPython
+# AES_Cipher_byPython
 AES暗号化をPythonで実装する。
 
-- [AES_Chiper_byPython](#aes_chiper_bypython)
+- [AES_Cipher_byPython](#aes_cipher_bypython)
   - [コマンド](#コマンド)
     - [実行：暗号化](#実行暗号化)
     - [実行：復号](#実行復号)
