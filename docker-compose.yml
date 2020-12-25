@@ -6,6 +6,3 @@ services:
     volumes:
       - ./start.sh:/start.sh
       - ./app:/app
-  bash:
-    entrypoint: /start.sh
-    command: [ "origin hogehoge"  ]
